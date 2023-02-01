@@ -1,13 +1,6 @@
-Welcome to Lumache's documentation!
+Reinforcement Learning for Quantitative Trading Documentation
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
 
@@ -18,7 +11,12 @@ Contents
 
 .. toctree::
 
-   usage
+   Usage
    api
    Hierachy
-   build/Point1
+   1.	Prerequisites
+   2.	Installation
+   3.	Hierarchy
+   4.	Quick Run (Config_file, Train Script, Test Script)
+   5.	Agents
+
