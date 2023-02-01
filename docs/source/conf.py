@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'RLforQT'
+
+author = 'Xyg'
 
 release = '0.1'
 version = '0.1.0'
@@ -17,6 +17,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'recommonmark',
+    'sphinx_markdown_tables'
 ]
 
 intersphinx_mapping = {
