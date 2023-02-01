@@ -1,6 +1,6 @@
 Reinforcement Learning for Quantitative Trading Documentation
 ===================================
-
+ #Hierachy
 
 .. note::
 
@@ -13,7 +13,7 @@ Contents
 
    Usage
    api
-   Hierachy
+  
    1.	Prerequisites
    2.	Installation
    3.	Hierarchy
