@@ -1,11 +1,8 @@
 Reinforcement Learning for Quantitative Trading Documentation
 ===================================
- #Hierachy
 
 .. note::
-
    This project is under active development.
-
 Contents
 --------
 
@@ -13,10 +10,10 @@ Contents
 
    Usage
    api
-  
-   1.	Prerequisites
-   2.	Installation
-   3.	Hierarchy
-   4.	Quick Run (Config_file, Train Script, Test Script)
-   5.	Agents
+   Hierachy
+   Prerequisites
+   Installation
+   Hierarchy
+   Quick Run (Config_file, Train Script, Test Script)
+   Agents
 
