@@ -10,8 +10,9 @@ Installation
 Step 1: Install [Docker](https://docs.docker.com/)
 - Please follow the steps in this [blog](https://docs.docker.com/engine/install/)
 - To check whether the Docker has been installed properly, type `docker version`, it should show:
+ 
   ``
-  Client:
+   Client:
    Cloud integration: v1.0.29
    Version:           20.10.17
    API version:       1.41
@@ -39,8 +40,7 @@ Step 1: Install [Docker](https://docs.docker.com/)
     GitCommit:        v1.1.4-0-g5fd4c4d
    docker-init:
     Version:          0.19.0
-    GitCommit:        de40ad0
-  ``
+    GitCommit:        de40ad0 ``
 
 Step 2: Build the docker image from [dockerfile](https://github.com/TradeMaster-NTU/TradeMaster/blob/main/docker/Dockerfile)
 - Install `TradeMaster`
