@@ -16,9 +16,11 @@ Contents
 --------
 
 .. toctree::
-    Hierarchy
+    :maxdepth: 4
+    :caption: Contents:
+    Hierachy
     Installation
     Usage
-      api
 
+  
  
