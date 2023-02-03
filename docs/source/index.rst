@@ -7,12 +7,13 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
 
    Usage
-   api
    Hierachy
    Prerequisites
    Installation
+      api
    Hierarchy
    Quick Run (Config_file, Train Script, Test Script)
    Agents
