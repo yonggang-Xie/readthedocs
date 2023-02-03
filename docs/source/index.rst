@@ -16,10 +16,9 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 5
-    Usage
-    Installation
-      api
     Hierarchy
+    Installation
+    Usage
+      api
 
  
