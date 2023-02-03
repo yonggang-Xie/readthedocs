@@ -1,6 +1,6 @@
 Installation Tutorial
 =======================
-| 1.Docker '1. Docker Installation'_ 
+| 1.Docker `1. Docker Installation`_ 
 | 2.MacOS
 | 3.Linux
 | 4.Windows
