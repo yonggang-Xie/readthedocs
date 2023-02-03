@@ -1,6 +1,6 @@
 Installation Tutorial
 =======================
-| 1.Docker :ref:`1. Docker Installation`.
+| `1. Docker Installation`_
 | 2.MacOS
 | 3.Linux
 | 4.Windows
@@ -14,7 +14,7 @@ Installation Tutorial
 | Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.
 
 | Step 1: Install [Docker](https://docs.docker.com/)
-^^^^^^^^^^^^^^^^^^^^^^
+
 * Please follow the steps in this [blog](https://docs.docker.com/engine/install/)
 * To check whether the Docker has been installed properly, type `docker version`, it should show::
 
@@ -29,7 +29,7 @@ Installation Tutorial
    Context:           default
    Experimental:      true
 
-  Server: Docker Desktop 4.12.0 (85629)
+   Server: Docker Desktop 4.12.0 (85629)
    Engine:
     Version:          20.10.17
     API version:      1.41 (minimum version 1.12)
