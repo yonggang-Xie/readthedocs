@@ -6,9 +6,9 @@ Docker is a set of platform as a service (PaaS) products that use OS-level virtu
 
 Installation 
 --------------
-|Step 1: Install [Docker](https://docs.docker.com/)
-| Please follow the steps in this [blog](https://docs.docker.com/engine/install/)
-| To check whether the Docker has been installed properly, type `docker version`, it should show ::
+| Step 1: Install [Docker](https://docs.docker.com/)
+* Please follow the steps in this [blog](https://docs.docker.com/engine/install/)
+* To check whether the Docker has been installed properly, type `docker version`, it should show::
 
    Client:
    Cloud integration: v1.0.29
@@ -41,11 +41,11 @@ Installation
     GitCommit:        de40ad0
 
 Step 2: Build the docker image from [dockerfile](https://github.com/TradeMaster-NTU/TradeMaster/blob/main/docker/Dockerfile)
-| Install `TradeMaster`
+* Install `TradeMaster`
   
    ``git clone https://github.com/TradeMaster-NTU/TradeMaster.git ``
   
-| Create image from the project docker file.
+* Create image from the project docker file.
 
   If your chip is arm-architectured, open terminal or cmd in the position of the project and type ::
 
@@ -61,7 +61,7 @@ Step 2: Build the docker image from [dockerfile](https://github.com/TradeMaster-
 
 Step 3: Test whether the image is installed correctly
 
-| Open the terminal in the project position and type
+* Open the terminal in the project position and type
   
   ``docker image ls``
  
@@ -70,7 +70,7 @@ Step 3: Test whether the image is installed correctly
      REPOSITORY    TAG       IMAGE ID       CREATED         SIZE
      trademaster   0.1       02801f755797   4 minutes ago   15GB 
   
-| Create a container and run an experiment to see whether the installation is successful ::
+* Create a container and run an experiment to see whether the installation is successful ::
   
      docker run -it trademaster:0.1
      python experiment/AT/DeepScalper/experiment.py
