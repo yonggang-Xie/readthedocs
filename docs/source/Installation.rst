@@ -76,4 +76,4 @@ Step 3: Test whether the image is installed correctly
   ```
   
 .. autosummary::
-
+    :toctree: generated
