@@ -11,8 +11,8 @@ Step 1: Install [Docker](https://docs.docker.com/)
 - Please follow the steps in this [blog](https://docs.docker.com/engine/install/)
 - To check whether the Docker has been installed properly, type `docker version`, it should show:
  
-  ``
-   Client:
+ 
+   ``Client:
    Cloud integration: v1.0.29
    Version:           20.10.17
    API version:       1.41
