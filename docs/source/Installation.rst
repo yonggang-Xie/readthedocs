@@ -40,7 +40,7 @@ Step 1: Install [Docker](https://docs.docker.com/)
     GitCommit:        v1.1.4-0-g5fd4c4d
    docker-init:
     Version:          0.19.0
-    GitCommit:        de40ad0 ``
+    GitCommit:        de40ad0``
 
 Step 2: Build the docker image from [dockerfile](https://github.com/TradeMaster-NTU/TradeMaster/blob/main/docker/Dockerfile)
 - Install `TradeMaster`
