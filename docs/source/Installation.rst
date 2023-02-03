@@ -1,19 +1,18 @@
 Installation Tutorial
 =======================
-| 1.Docker `1. Docker Installation`_ 
+| 1.Docker :ref:`1. Docker Installation`.
 | 2.MacOS
 | 3.Linux
 | 4.Windows
 
 
-Introduction to Docker
-^^^^^^^^^^^^^^^^^^^^^^
-Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. 
+
 
 1. Docker Installation 
 -----------------------
-Introduction to Docker
-Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. 
+| Introduction to Docker
+| Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.
+
 | Step 1: Install [Docker](https://docs.docker.com/)
 ^^^^^^^^^^^^^^^^^^^^^^
 * Please follow the steps in this [blog](https://docs.docker.com/engine/install/)
