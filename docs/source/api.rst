@@ -1,7 +1,8 @@
 API
 ===
 
-.. autosummary::
-   :toctree: generated
+.. toctree:: 
+   :glob:
+   
+   Installation*
 
-   lumache
