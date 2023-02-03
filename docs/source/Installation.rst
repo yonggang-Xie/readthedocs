@@ -8,7 +8,7 @@ Installation
 --------------
 Step 1: Install [Docker](https://docs.docker.com/)
 - Please follow the steps in this [blog](https://docs.docker.com/engine/install/)
-- To check whether the Docker has been installed properly, type `docker version`, it should show::
+- To check whether the Docker has been installed properly, type `docker version`, it should show ::
 
    Client:
    Cloud integration: v1.0.29
@@ -47,12 +47,12 @@ Step 2: Build the docker image from [dockerfile](https://github.com/TradeMaster-
   
 - Create image from the project docker file.
 
-  If your chip is arm-architectured, open terminal or cmd in the position of the project and type::
+  If your chip is arm-architectured, open terminal or cmd in the position of the project and type ::
 
      cd ./docker/arm
      docker build -t="trademaster:0.1" .
   
-  If you chip is x86-architectured, open terminal or cmd in the position of the project and type::
+  If you chip is x86-architectured, open terminal or cmd in the position of the project and type ::
 
      cd ./docker/x86
      docker build -t="trademaster:0.1"
@@ -65,12 +65,12 @@ Step 3: Test whether the image is installed correctly
   
   ``docker image ls``
  
-  It should show::
+  It should show ::
   
      REPOSITORY    TAG       IMAGE ID       CREATED         SIZE
      trademaster   0.1       02801f755797   4 minutes ago   15GB 
   
-- Create a container and run an experiment to see whether the installation is successful:
+- Create a container and run an experiment to see whether the installation is successful ::
   
      docker run -it trademaster:0.1
      python experiment/AT/DeepScalper/experiment.py
