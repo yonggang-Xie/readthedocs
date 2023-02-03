@@ -6,6 +6,7 @@ Docker is a set of platform as a service (PaaS) products that use OS-level virtu
 
 Installation 
 --------------
+``code Sample``
 Step 1: Install [Docker](https://docs.docker.com/)
 - Please follow the steps in this [blog](https://docs.docker.com/engine/install/)
 - To check whether the Docker has been installed properly, type `docker version`, it should show:
