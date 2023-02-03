@@ -1,6 +1,9 @@
 Installation Tutorial
 =======================
-
+*1.Docker*
+2.MacOS
+3.Linux
+4.Windows
 
 
 Introduction to Docker
@@ -8,9 +11,8 @@ Introduction to Docker
 Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. 
 
 1. Docker Installation 
---------------
+-----------------------
 Introduction to Docker
-^^^^^^^^^^^^^^^^^^^^^^
 Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. 
 | Step 1: Install [Docker](https://docs.docker.com/)
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -48,7 +50,7 @@ Docker is a set of platform as a service (PaaS) products that use OS-level virtu
     GitCommit:        de40ad0
 
 Step 2: Build the docker image from [dockerfile](https://github.com/TradeMaster-NTU/TradeMaster/blob/main/docker/Dockerfile)
-^^^^^^^^^^^^^^^^^^^^^^
+
 * Install `TradeMaster`
   
    ``git clone https://github.com/TradeMaster-NTU/TradeMaster.git ``
@@ -68,7 +70,7 @@ Step 2: Build the docker image from [dockerfile](https://github.com/TradeMaster-
   It will take a while before the image is built.
 
 Step 3: Test whether the image is installed correctly
-^^^^^^^^^^^^^^^^^^^^^^
+
 * Open the terminal in the project position and type
   
   ``docker image ls``
