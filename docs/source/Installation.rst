@@ -1,3 +1,5 @@
+.. _Installation:
+
 Installation Tutorial
 =======================
 | `1. Docker Installation`_
