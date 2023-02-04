@@ -10,6 +10,7 @@ Contents
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
+    
     Hierachy
     Installation
     usage
