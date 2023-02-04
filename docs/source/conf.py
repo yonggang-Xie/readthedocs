@@ -21,9 +21,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'recommonmark',
-    'myst_parser'
-    
+    'recommonmark',    
 ]
 
 intersphinx_mapping = {
@@ -33,6 +31,10 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+source_suffix = ['.rst', '.md']
+
+master_doc = 'index'
 
 # -- Options for HTML output
 
