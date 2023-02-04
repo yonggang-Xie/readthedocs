@@ -3,12 +3,13 @@
 Directory Hierachy
 ============
 Here is the structure of the TradeMaster project.
+
 | TradeMaster
 | ├── configs
-| │   ├── base
-| │   ├── algorithmic_trading
-| │   ├── order_excution
-| │   ├── porfolio_management
+| |   ├── base
+| |   ├── algorithmic_trading
+| |   ├── order_excution
+| |   ├── porfolio_management
 | ├── data
 | │   ├── algorithmic_trading          
 | │   ├── order_excution          
@@ -71,7 +72,7 @@ In the folder structure above:
           ├── order_execution_BTC_eteo_eteo_adam_mse.py
           └── order_execution_BTC_pd_pd_adam_mse.py
 | │   ├── porfolio_management
-          ├── portfolio_management_dj30_deeptrader_deeptrader_adam_mse.py
+| | |        ├── portfolio_management_dj30_deeptrader_deeptrader_adam_mse.py
           ├── portfolio_management_dj30_eiie_eiie_adam_mse.py
           ├── portfolio_management_dj30_investor_imitator_investor_imitator_adam_mse.py
           ├── portfolio_management_dj30_sarl_sarl_adam_mse.py
