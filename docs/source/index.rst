@@ -12,7 +12,7 @@ Contents
     :caption: Contents:
     Hierachy
     Installation
-    Usage
+    usage
 
   
  
