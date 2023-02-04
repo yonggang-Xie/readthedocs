@@ -1,4 +1,4 @@
-.. Hierachy:
+
 
 Directory Hierachy
 ============
