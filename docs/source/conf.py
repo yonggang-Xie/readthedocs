@@ -38,7 +38,7 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 #source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = '.md'
 
 master_doc = 'index'
 
