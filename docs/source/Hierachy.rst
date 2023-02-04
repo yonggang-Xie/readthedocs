@@ -1,3 +1,5 @@
+.. Hierachy:
+
 Directory Hierachy
 ============
 Here is the structure of the TradeMaster project.
