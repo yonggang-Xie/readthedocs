@@ -4,12 +4,24 @@ Directory Hierachy
 ============
 Here is the structure of the TradeMaster project.
 
+| simpleble-master
+| ├── docs
+| │   ├── build
+| │   ├── make.bat
+| │   ├── Makefile
+| │   └── source
+| ├── LICENSE
+| ├── README.md
+| ├── requirements.txt
+| └── simpleble
+|     └── simpleble.py
+
 | TradeMaster
 | ├── configs
-| |   ├── base
-| |   ├── algorithmic_trading
-| |   ├── order_excution
-| |   ├── porfolio_management
+| │   ├── base
+| │   ├── algorithmic_trading
+| │   ├── order_excution
+| │   └── porfolio_management
 | ├── data
 | │   ├── algorithmic_trading          
 | │   ├── order_excution          
