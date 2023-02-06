@@ -4,6 +4,8 @@ Deep Q-Net (DQN)
 | `1. Data`_
 | `2. Agent`_
 | `3. Evaluation`_
+| .. _Quick-Run Turorial: https://github.com/yonggang-Xie/readthedocs/blob/main/docs/source/Quick_Run_DQN_for_Algorithm_Trading_on_BTC.ipynb
+| .. _a link: https://domain.invalid/
 
 1.	Data
 ---------
