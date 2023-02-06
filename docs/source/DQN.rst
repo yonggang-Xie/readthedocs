@@ -44,7 +44,7 @@ Update Process:
 - Optimizer: Adam 
 - Loss: MSE(Q_values-Q_labels), where *Q_labels=Ri+γ * Q_next * (1-done)*.
 
-..code_block::
+Alogrithm ::
 
 Initialize network and replay buffer
 for t in timestep:
