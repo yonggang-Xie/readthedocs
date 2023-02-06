@@ -52,9 +52,9 @@ Installation Tutorial
 
 Step 2: Build the docker image from [dockerfile](https://github.com/TradeMaster-NTU/TradeMaster/blob/main/docker/Dockerfile)
 
-* Install `TradeMaster`
-  
-   ``git clone https://github.com/TradeMaster-NTU/TradeMaster.git ``
+* Install 'TradeMaster' ::
+
+      git clone https://github.com/TradeMaster-NTU/TradeMaster.git
   
 * Create image from the project docker file.
 
@@ -72,9 +72,9 @@ Step 2: Build the docker image from [dockerfile](https://github.com/TradeMaster-
 
 Step 3: Test whether the image is installed correctly
 
-* Open the terminal in the project position and type
+* Open the terminal in the project position and type ::
   
-  ``docker image ls``
+   docker image ls
  
   It should show ::
   
@@ -86,6 +86,3 @@ Step 3: Test whether the image is installed correctly
      docker run -it trademaster:0.1
      python experiment/AT/DeepScalper/experiment.py
      
-  
-.. autosummary::
-    :toctree: generated
