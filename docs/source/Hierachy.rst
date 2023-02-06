@@ -4,18 +4,6 @@ Directory Hierachy
 ============
 Here is the structure of the TradeMaster project.
 
-| simpleble-master
-| ├── docs
-| │   ├── build
-| │   ├── make.bat
-| │   ├── Makefile
-| │   └── source
-| ├── LICENSE
-| ├── README.md
-| ├── requirements.txt
-| └── simpleble
-|     └── simpleble.py
-
 | TradeMaster
 | ├── configs
 | │   ├── base
@@ -64,8 +52,8 @@ Here is the structure of the TradeMaster project.
 | ├── python3.9.yaml
 | └── README.md
 
-
-In the folder structure above:
+| 
+| In the folder structure above:
 
 - ``configs`` contains configuration files directory for agents trainng.
 - ``data`` contains the datasets directory for training and testing.
@@ -73,6 +61,55 @@ In the folder structure above:
 - ``tools`` contains training scripts.
 - ``trademaster`` contains the files defining agents,enviornments, training losses, nets, optimizers and helper functions
 - ``unit_testing`` contains the components for testing.
+
+|
+|
+|
+
+
+|
+|
+|
+
+|
+|
+|
+
+|
+|
+|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 | TradeMaster
