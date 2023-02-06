@@ -1,5 +1,10 @@
 Deep Q-Net (DQN)
 ===========
+| Contents:
+| `1. Data`_
+| `2. Agent`_
+| `3. Evaluation`_
+
 1.	Data
 ---------
 Bitcoin Data of 2989 day:
@@ -11,7 +16,7 @@ Bitcoin Data of 2989 day:
 - Train-Validation-Test Split:0.8,0.1,0.1.
       Train: BTC 2393 days. Validation: 300 days. Test: 298 days
 
-2.	Training
+2.	Agent
 ------------
 DQN:
 ^^^^^^^^^
@@ -38,6 +43,19 @@ Update Process:
 
 - Optimizer: Adam 
 - Loss: MSE(Q_values-Q_labels), where *Q_labels=Ri+γ * Q_next * (1-done)*.
+
+..code_block::
+
+Initialize network and replay buffer
+for t in timestep:
+   Act At, get reward Rt, update state St+1
+   Store <St,At,Rt,St+1> to Replay Buffer
+   If enough samples in Replay Buffer:
+      take N samples <Si,Ai,Ri,Si+1>
+   Caculate TD-target yi= Ri + γ Maxa Q(St+1, A)
+   Minimize Loss function L = sum i to N (yi-Q(Si))^2
+   Update Q-net
+End for 
 
 Replay Buffer:
 ^^^^^^^^^^^^^^^
