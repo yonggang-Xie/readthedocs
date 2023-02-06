@@ -66,7 +66,8 @@ Put <State,Action,Reward,Next_Q> in the memory replay buffer.
 
 3.	Evaluation
 --------------
-- Profit Margin:  *LastDayAsset/FirstDayAsset-1* * *100%*
+- Profit Margin:  
+   *LastDayAsset/FirstDayAsset-1* * *100%*
 
 - Risk Criteria: 
         
