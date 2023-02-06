@@ -13,7 +13,7 @@ Contents
     
     Hierachy
     Installation
-    usage
+    DQN
 
   
  
