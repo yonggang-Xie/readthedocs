@@ -4,7 +4,7 @@ Reinforcement Learning for Quantitative Trading Documentation
 .. note::
    This project is under active development.
 
-Contents
+Welcome to Reinforcement Learning for Quantitative Trading!
 --------
 
 .. toctree::
