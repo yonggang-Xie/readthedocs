@@ -44,18 +44,18 @@ Update Process:
 - Optimizer: Adam 
 - Loss: MSE(Q_values-Q_labels), where *Q_labels=Ri+γ * Q_next * (1-done)*.
 
-Alogrithm ::
-
-Initialize network and replay buffer
-for t in timestep:
-   Act At, get reward Rt, update state St+1
-   Store <St,At,Rt,St+1> to Replay Buffer
-   If enough samples in Replay Buffer:
-      take N samples <Si,Ai,Ri,Si+1>
-   Caculate TD-target yi= Ri + γ Maxa Q(St+1, A)
-   Minimize Loss function L = sum i to N (yi-Q(Si))^2
-   Update Q-net
-End for 
+* Alogrithm ::
+   
+   * Initialize network and replay buffer
+   * for t in timestep:
+      * Act At, get reward Rt, update state St+1
+      * Store <St,At,Rt,St+1> to Replay Buffer
+      * If enough samples in Replay Buffer:
+         * take N samples <Si,Ai,Ri,Si+1>
+      * Caculate TD-target yi= Ri + γ Maxa Q(St+1, A)
+      * Minimize Loss function L = sum i to N (yi-Q(Si))^2
+      * Update Q-net
+   * End for 
 
 Replay Buffer:
 ^^^^^^^^^^^^^^^
@@ -66,7 +66,16 @@ Put <State,Action,Reward,Next_Q> in the memory replay buffer.
 
 3.	Evaluation
 --------------
-Profit Margin:  *LastDayAsset/FirstDayAsset-1* * *100%*
+- Profit Margin:  *LastDayAsset/FirstDayAsset-1* * *100%*
 
-Risk Criteria 
-
+- Risk Criteria: 
+        
+        sharpe_ratio = np.mean(daily_return) / (np.std(daily_return) * (len(df) ** 0.5) + 1e-10)
+        
+        Volatility = np.std(daily_return)
+        
+        Max Draw Down = max((max(df["total assets"]) - df["total assets"]) / (max(df["total assets"])) + 1e-10)
+        
+        Calmar Ratio = np.sum(daily_return) / (mdd + 1e-10)
+        
+        Sortino Ratio = np.sum(daily_return) / (np.std(neg_ret_lst) + 1e-10) / (np.sqrt(len(daily_return))+1e-10)
