@@ -4,8 +4,8 @@ Deep Q-Net (DQN)
 | `1. Data`_
 | `2. Agent`_
 | `3. Evaluation`_
-| .. _Quick-Run Turorial: https://github.com/yonggang-Xie/readthedocs/blob/main/docs/source/Quick_Run_DQN_for_Algorithm_Trading_on_BTC.ipynb
-| .. _a link: https://domain.invalid/
+| `4. Quick-run Tutorial`_
+
 
 1.	Data
 ---------
@@ -82,3 +82,8 @@ Put <State,Action,Reward,Next_Q> in the memory replay buffer.
         Calmar Ratio = np.sum(daily_return) / (mdd + 1e-10)
         
         Sortino Ratio = np.sum(daily_return) / (np.std(neg_ret_lst) + 1e-10) / (np.sqrt(len(daily_return))+1e-10)
+        
+4. Quick-run Tutorial
+------------------------
+- A jupyter notebook for a quick start for DQN. 
+      Please `Click Here <https://github.com/yonggang-Xie/readthedocs/blob/main/docs/source/Quick_Run_DQN_for_Algorithm_Trading_on_BTC.ipynb>`_ 
