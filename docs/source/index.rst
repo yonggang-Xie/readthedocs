@@ -15,6 +15,11 @@ Welcome to Reinforcement Learning for Quantitative Trading!
     Installation_Linux.md
     Installation_Mac.md
     Installation_Windows.md
+
+.. toctree::
+    :caption: Getting Start
+    :maxdepth: 2
+    DQN.rst
     
 
 
