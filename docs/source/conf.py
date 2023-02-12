@@ -28,6 +28,7 @@ extensions = [
      'myst_parser',
     'sphinx_math_dollar', 
     'sphinx.ext.mathjax',
+    'myst_parser.ext.dollarmath',
 ]
 
 myst_enable_extensions = [
