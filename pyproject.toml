@@ -7,4 +7,4 @@ name = "lumache"
 authors = [{name = "Graziella", email = "graziella@lumache"}]
 dynamic = ["version", "description"]
 
-[doc]=["myst-parser-=0.18.1"]
+[doc]=["myst-parser -= 0.18.1"]
