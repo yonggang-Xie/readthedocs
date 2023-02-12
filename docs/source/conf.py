@@ -27,13 +27,14 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'recommonmark', 
-   'myst_parser',
+#     'myst_parser',
 ]
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-    "myst-parser": ("https://myst-parser.readthedocs.io/en/stable/", None),
+    'pip': ("https://pip.pypa.io/en/stable/", None),
+    'myst-parser': ("https://myst-parser.readthedocs.io/en/stable/", None),
 }
 intersphinx_disabled_domains = ['std']
 
