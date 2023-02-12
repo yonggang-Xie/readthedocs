@@ -1,23 +1,24 @@
 # Proximal Policy Optimization(PPO)
 
-## 1. Data 
- BTC
-
-## 2. Viarants
+## 1. Viarants
   
-  1) Policy Gradient
+  0) Policy Gradient and Trust Region Policy Optimization
 
 $$ 
 L^{PG}=\hat{E}_t[\nabla log \pi (a_t|s_t) A_t]
 $$
 
-  2) KL Penalty
+Updating Policy Gradient without Constrains may lead to destructive large gradient update. 
+
+
 
 $$
 Maxmize \ \ \hat{E}_t [\frac{\pi_\theta (a_t|s_t)}{\pi_{\theta old}(a_t|s_t)}\hat{A}_t-\beta KL [\pi_{\theta old} (a_t|s_t),\pi_\theta (a_t|s_t)]]
 $$
-  
-  3) Adaptive KL Penalty
+ 
+However, The choice of  *beta is based on heuristics thus hard to decide for multiple problems.
+
+  1) Adaptive KL Penalty
 
 $$
 Maxmize \ \ \hat{E}_t [\frac{\pi_\theta (a_t|s_t)}{\pi_{\theta old}(a_t|s_t)}\hat{A}_t-\beta KL [\pi_{\theta old} (a_t|s_t),\pi_\theta (a_t|s_t)]]
@@ -35,15 +36,15 @@ $$
 if \ \ d > d_{targ}/1.5, \beta \leftarrow \beta * 2
 $$
 
-  4) Clipped Surrogate
+  2) Clipped Surrogate
  
 $$
 L^{CLIP} (\theta) = \hat{E}_t[min(r_t (\theta)) \hat{A}_t, clip(r_t (\theta) , 1-epsilon, 1+epsilon) \hat{A}_t]
 $$
 
 
-## 3.Traning
+## 2.Traning
 
   Recurrent Neural Network (RNN) is used to recursively update Policy Gradient.
   
-## 3. Evaluation
+
