@@ -9,6 +9,7 @@ Welcome to Reinforcement Learning for Quantitative Trading!
 
 .. toctree::
     :maxdepth: 2
+    
     Installation.md
     Hierachy.md
 
