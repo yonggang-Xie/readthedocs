@@ -40,12 +40,10 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-source_suffix = ['.rst', '.md']
-
-# source_suffix = {
-#     '.rst': 'restructuredtext',
-#     '.md': 'markdown',
-# }
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 master_doc = 'index'
 
