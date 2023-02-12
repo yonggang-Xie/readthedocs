@@ -17,7 +17,7 @@ Welcome to Reinforcement Learning for Quantitative Trading!
     Installation_Windows.md
 
 .. toctree::
-    :caption: Getting Start
+    :caption: Agents
     :maxdepth: 2
     DQN.rst
     
