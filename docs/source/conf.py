@@ -21,13 +21,20 @@ version = '0.1.0'
 # ]
 
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
-     'myst_parser',
+    'sphinx.ext.githubpages',
+    'myst_parser'
 ]
+
+# extensions = [
+#     'sphinx.ext.duration',
+#     'sphinx.ext.doctest',
+#     'sphinx.ext.autodoc',
+#     'sphinx.ext.autosummary',
+#     'sphinx.ext.intersphinx',
+#      'myst_parser',
+# ]
+
+source_suffix = ['.rst', '.md']
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -40,17 +47,7 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-source_suffix= ['.md','.rst']
 
-source_parsers = {
-    '.md': 'recommonmark.parser.CommonMarkParser',
-}
-source_suffix = ['.rst', '.md']
-
-# source_suffix = {
-#     '.rst': 'restructuredtext',
-#     '.md': 'markdown',
-# }
 
 master_doc = 'index'
 
