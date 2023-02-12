@@ -10,6 +10,7 @@ Welcome to Reinforcement Learning for Quantitative Trading!
 .. toctree::
     :caption: Getting Start
     :maxdepth: 2
+    
     Hierachy.md
     Installation_docker.md
     Installation_Linux.md
@@ -19,6 +20,7 @@ Welcome to Reinforcement Learning for Quantitative Trading!
 .. toctree::
     :caption: Agents
     :maxdepth: 2
+    
     DQN.rst
     
 
