@@ -36,6 +36,7 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
     'pip': ("https://pip.pypa.io/en/stable/", None),
     'myst-parser': ("https://myst-parser.readthedocs.io/en/stable/", None),
+    'sphinx-markdown-tables':("https://pypi.org/project/sphinx-markdown-tables/",None),
 }
 intersphinx_disabled_domains = ['std']
 
