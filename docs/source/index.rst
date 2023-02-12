@@ -9,11 +9,14 @@ Welcome to Reinforcement Learning for Quantitative Trading!
 
 .. toctree::
     :maxdepth: 2
+    :caption: Getting Started:
+    Installation.md
+    Hierachy.md
+
+.. toctree::
+    :maxdepth: 2
     :caption: Contents:
-    
-    Hierachy
-    Installation
-    DQN
+    DQN.md
 
   
  
