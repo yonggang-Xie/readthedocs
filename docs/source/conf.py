@@ -40,7 +40,14 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
 source_suffix= ['.md','.rst']
+
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
+}
+source_suffix = ['.rst', '.md']
+
 # source_suffix = {
 #     '.rst': 'restructuredtext',
 #     '.md': 'markdown',
