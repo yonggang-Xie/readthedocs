@@ -1,7 +1,7 @@
 # Proximal Policy Optimization(PPO)
 
 $$ 
-    L^{PG}= \hat{E}_t [\nabla log \pi (a_t|s_t) A_t]
+L^{PG}= \hat{E}_t [\nabla log \pi (a_t|s_t) A_t]
 $$
 
 ## 1. Viarants
