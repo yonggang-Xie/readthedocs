@@ -6,10 +6,9 @@ Reinforcement Learning for Quantitative Trading Documentation
 
 Welcome to Reinforcement Learning for Quantitative Trading!
 --------
-
 .. toctree::
     :maxdepth: 2
-    :caption: RST:
+    :caption: NO_suffix:
     DQN
     Installation
 
@@ -21,4 +20,8 @@ Welcome to Reinforcement Learning for Quantitative Trading!
     Hierachy.md
 
   
+.. toctree::
+    :maxdepth: 2
+    :caption: RST:
+    DQN.rst
  
