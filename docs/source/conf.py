@@ -46,7 +46,7 @@ source_suffix= ['.md','.rst']
 #     '.md': 'markdown',
 # }
 
-master_doc = 'index.rst'
+master_doc = 'index'
 
 # -- Options for HTML output
 
