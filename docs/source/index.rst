@@ -16,7 +16,7 @@ Welcome to Reinforcement Learning for Quantitative Trading!
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
-    DQN.md
+    DQN.rst
 
   
  
