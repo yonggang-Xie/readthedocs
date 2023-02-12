@@ -26,7 +26,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'recommonmark', 
+#     'recommonmark', 
     'myst_parser',
 ]
 
