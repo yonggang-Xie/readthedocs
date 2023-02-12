@@ -1,5 +1,15 @@
 # Proximal Policy Optimization(PPO)
 
+
+(c)
+
+
+(r)
+
+$$ 
+    L^{PG}= \hat{E}_t [\nabla log \pi (a_t|s_t) A_t]
+$$
+
 ## 1. Viarants
   
   0) Policy Gradient and Trust Region Policy Optimization
