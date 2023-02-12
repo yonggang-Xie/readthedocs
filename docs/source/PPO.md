@@ -5,7 +5,7 @@
   0) Policy Gradient and Trust Region Policy Optimization
 
 $$ 
-L^{PG}=\hat{E}_t[\nabla log \pi (a_t|s_t) A_t]
+    L^{PG}= \hat{E}_t [\nabla log \pi (a_t|s_t) A_t]
 $$
 
 Updating Policy Gradient without Constrains may lead to destructive large gradient update. 
@@ -13,7 +13,7 @@ Updating Policy Gradient without Constrains may lead to destructive large gradie
 
 
 $$
-Maxmize \ \ \hat{E}_t [\frac{\pi_\theta (a_t|s_t)}{\pi_{\theta old}(a_t|s_t)}\hat{A}_t-\beta KL [\pi_{\theta old} (a_t|s_t),\pi_\theta (a_t|s_t)]]
+Maxmize \ \ \hat{E}_t [\frac{\pi_\theta (a_t|s_t)} {\pi_{\theta old} (a_t|s_t)}\hat{A}_t-\beta KL [\pi_{\theta old} (a_t|s_t),\pi_\theta (a_t|s_t)]]
 $$
  
 However, The choice of  *beta is based on heuristics thus hard to decide for multiple problems.
