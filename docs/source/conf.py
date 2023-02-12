@@ -26,6 +26,8 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
      'myst_parser',
+    'sphinx_math_dollar', 
+    'sphinx.ext.mathjax',
 ]
 
 source_suffix = ['.rst', '.md']
