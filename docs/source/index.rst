@@ -7,15 +7,11 @@ Reinforcement Learning for Quantitative Trading Documentation
 Welcome to Reinforcement Learning for Quantitative Trading!
 --------
 
-```
-{toctree}
-:maxdepth: 2
-:caption: 'Getting Started:'
-    Installation.md
-    Hierachy.md
-```
 
-<!-- 
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+    DQN.rst
 
 .. toctree::
     :maxdepth: 2
@@ -23,10 +19,5 @@ Welcome to Reinforcement Learning for Quantitative Trading!
     Installation.md
     Hierachy.md
 
-.. toctree::
-    :maxdepth: 2
-    :caption: Contents:
-    DQN.rst
- -->
   
  
